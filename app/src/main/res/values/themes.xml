@@ -1,0 +1,17 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.CustomBottomNavBar" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+        <item name="fontFamily">@font/poppins_family</item>
+
+    </style>
+
+    <style name="Theme.CustomBottomNavBar" parent="Base.Theme.CustomBottomNavBar" />
+
+    <style name="TextAppearance.BottomNavBarLabel" parent="TextAppearance.Material3.DisplayMedium">
+        <item name="android:textStyle">normal</item>
+        <item name="android:textSize">12sp</item>
+        <item name="fontFamily">@font/poppins_medium</item>
+    </style>
+</resources>
